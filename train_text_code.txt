@@ -10156,7 +10156,7 @@ function initControls(){
      * on demand. One of the main benefits of a linked list is that 
      * you can add or remove elements at both ends in constant time. 
      * One disadvantage of a linked list against an array is 
-     * that it doesn’t provide constant time random access.
+     * that it doesnÂ’t provide constant time random access.
      * @constructor
      */
     buckets.LinkedList = function () {
@@ -24373,5 +24373,5 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
         return base * Math.floor(n / base);
     }
 
-})(jQuery);
+})(jQuery
 
